@@ -1,0 +1,59 @@
+/* Education.css */
+.education-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+.education-container h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.education-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #1f2833;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  box-sizing: border-box;
+}
+
+.education-card img {
+  width: 80px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.education-details h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.education-details p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .education-card img {
+    margin-bottom: 10px;
+  }
+}
